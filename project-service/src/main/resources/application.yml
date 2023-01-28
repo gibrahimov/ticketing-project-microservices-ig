@@ -23,6 +23,7 @@ spring:
 server:
   port: 9091
 
+
 eureka:
   instance:
     status-page-url-path: ${management.context-path}/info
@@ -30,6 +31,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://discovery-service:8761/eureka/
+
 
 management:
   endpoint:
@@ -41,6 +43,7 @@ management:
         include: "*"
   context-path: http://localhost:${server.port}/actuator
 
+
 info:
   application:
     name: ${spring.application.name}
@@ -48,6 +51,7 @@ info:
     version: '@project.version@'
     spring-cloud-version: '@spring-cloud.version@'
     spring-boot-version: '@project.parent.version@'
+
 
 resilience4j:
   circuitbreaker:
