@@ -10,7 +10,7 @@ spring:
           uri: https://github.com/gibrahimov/ticketing-project-microservices-config
           default-label: main
           username: gibrahimov
-          password: '{cipher}7299dacbf31bbff6d6c6260fba758fa2c0c3d0ca68beaddc3899735c21fd308dbf8d7e1dcad7bd23807acda66dc9ba0d71965249e8006e10734d513436b33f69'
+          password: '{cipher}69a862ca1dbf2cf557753b43c37e5c7be0a61598a7c02f95afbfa78f9b79c394e5eabf8c2e27e96440163f3ae6db86d8412c0f8f1e5ee7d4b53ae942d5f72b3c'
       fail-fast: true
 
 encrypt:
@@ -19,4 +19,4 @@ encrypt:
 server:
   port: 8888
 
-# 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 - this was password from github
+# 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 - this was password from github
